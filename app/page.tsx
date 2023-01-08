@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import HomeSection from "./HomeSection";
 import Access from "./Access";
 import CommunitySection from "./CommunitySection";
+import Features from "./Features";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
       </section>
       <section className=" bg-black h-[700px] ">
         <CommunitySection />
+      </section>
+      <section className=" h-[700px] ">
+        <Features />
       </section>
     </div>
   );
