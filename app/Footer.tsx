@@ -79,7 +79,7 @@ export default function Footer() {
                 type="text"
                 placeholder="Email"
               />
-              <button className="absolute top-3 right-3 bg-red-900 rounded-full py-[2px] px-3">
+              <button className="absolute top-3 right-3 bg-red-800 rounded-full py-[2px] px-3 hover:bg-red-900">
                 Sent
               </button>
             </div>

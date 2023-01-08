@@ -46,7 +46,7 @@ export default function Features() {
         and more.
       </p>
       <div className="flex justify-center mt-10">
-        <button className="border-2 border-black rounded-xl px-5 py-3">
+        <button className="border-2 border-black rounded-xl px-5 py-3 hover:bg-red-300">
           Install RougePlay
           <BsCaretDown className="-rotate-90 inline ml-2 text-xl" />
         </button>

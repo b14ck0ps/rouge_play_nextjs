@@ -29,7 +29,7 @@ export default function HomeSection() {
             <h2 className="text-3xl font-bold">4,871,127</h2>
           </div>
         </div>
-        <button className=" flex gap-2 items-center w-[180px] border-2 border-black rounded-2xl px-6 py-3 mt-5">
+        <button className=" flex gap-2 items-center w-[180px] border-2 border-black rounded-2xl px-6 py-3 mt-5 hover:bg-red-300">
           <p className="font-semibold">Learn More</p>
           <BsCaretDown className="text-xl" />
         </button>
