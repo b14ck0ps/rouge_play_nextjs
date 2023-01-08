@@ -5,6 +5,7 @@ import HomeSection from "./HomeSection";
 import Access from "./Access";
 import CommunitySection from "./CommunitySection";
 import Features from "./Features";
+import PopularGames from "./PopularGames";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
       </section>
       <section className=" h-[700px] ">
         <Features />
+      </section>
+      <section className=" h-[700px] ">
+        <PopularGames />
       </section>
     </div>
   );
