@@ -34,7 +34,7 @@ export default function HomeSection() {
           <BsCaretDown className="text-xl" />
         </button>
       </div>
-      <Image src="/art.png" width={800} height={0} alt="art" />
+      <Image className="p-5" src="/art.png" width={900} height={0} alt="art" />
     </div>
   );
 }

@@ -30,10 +30,10 @@ export default function () {
               Experience Playo Hardware
             </h1>
             <Image
-              className="mt-20"
+              className=""
               src="/communityImg.png"
-              width={500}
-              height={400}
+              width={800}
+              height={0}
               alt="comImg"
             />
           </div>
