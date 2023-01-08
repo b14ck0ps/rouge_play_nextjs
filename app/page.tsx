@@ -6,6 +6,7 @@ import Access from "./Access";
 import CommunitySection from "./CommunitySection";
 import Features from "./Features";
 import PopularGames from "./PopularGames";
+import Footer from "./Footer";
 
 export default function Home() {
   return (
@@ -23,8 +24,11 @@ export default function Home() {
       <section className=" h-[700px] ">
         <Features />
       </section>
-      <section className=" h-[700px] ">
+      <section>
         <PopularGames />
+      </section>
+      <section className="bg-black">
+        <Footer />
       </section>
     </div>
   );
