@@ -1,6 +1,6 @@
 import React from "react";
 import { BsCaretDown } from "react-icons/bs";
-
+import Image from "next/image";
 export default function Access() {
   return (
     <div>
@@ -34,6 +34,48 @@ export default function Access() {
           </a>
         </div>
       </div>
+      <Image
+        className="relative left-[630px] top-[200px]"
+        src="/img/the_entrophy.png"
+        height="100"
+        width="100"
+        alt="img"
+      />
+      <Image
+        className="relative left-[450px] top-[300px]"
+        src="/img/alter.png"
+        height="0"
+        width="200"
+        alt="img"
+      />
+      <Image
+        className="relative left-[390px] top-[400px]"
+        src="/img/pentiment.png"
+        height="0"
+        width="300"
+        alt="img"
+      />
+      <Image
+        className="relative left-[1100px] top-[280px]"
+        src="/img/vikings.png"
+        height="0"
+        width="100"
+        alt="img"
+      />
+      <Image
+        className="relative left-[1270px] top-[100px]"
+        src="/img/chained_echoes.png"
+        height="0"
+        width="200"
+        alt="img"
+      />
+      <Image
+        className="relative left-[1230px] top-[-300px]"
+        src="/img/stacklands.png"
+        height="0"
+        width="300"
+        alt="img"
+      />
     </div>
   );
 }
