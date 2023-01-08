@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;600;700;800&display=swap');
+
+@layer base {
+    body {
+        font-family: 'Outfit', sans-serif;
+    }
+}
+
+
+@layer utilities {
+    .text-strocked {
+        color: transparent;
+        -webkit-text-stroke: 4px #881e1c;
+    }
+
+    .circle {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+    }
+}
