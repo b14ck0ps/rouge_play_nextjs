@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import "../styles/globals.css";
 import HomeSection from "./HomeSection";
 import Access from "./Access";
+import CommunitySection from "./CommunitySection";
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
       </section>
       <section className="bg-[url('/accessbg.svg')] mt-5 h-[890px] bg-no-repeat bg-center">
         <Access />
+      </section>
+      <section className=" bg-black h-[700px] ">
+        <CommunitySection />
       </section>
     </div>
   );
